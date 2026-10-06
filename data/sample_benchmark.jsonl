@@ -1,0 +1,4 @@
+{"id":1,"reference":"Paris is the capital of France.","answer":"Paris is the capital of France. [S1]","valid_sources":["S1"],"hallucinated":false}
+{"id":2,"reference":"Water freezes at 0 degrees Celsius at standard pressure.","answer":"Water freezes at 0 C at standard pressure. [S1]","valid_sources":["S1"],"hallucinated":false}
+{"id":3,"reference":"The trial enrolled 120 participants.","answer":"The trial enrolled 1,200 participants. [S9]","valid_sources":["S1"],"hallucinated":true}
+{"id":4,"reference":"The model uses retrieval before generation.","answer":"The model uses retrieval before generation. [S2]","valid_sources":["S2"],"hallucinated":false}

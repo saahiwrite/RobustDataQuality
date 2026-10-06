@@ -1,0 +1,16 @@
+[build-system]
+requires=["setuptools>=69"]
+build-backend="setuptools.build_meta"
+[project]
+name="llm_robustness"
+version="0.2.0"
+requires-python=">=3.10"
+dependencies=[
+    "matplotlib>=3.8",
+]
+[project.optional-dependencies]
+dev=["pytest>=8.0"]
+[tool.setuptools]
+packages=["src"]
+[tool.pytest.ini_options]
+pythonpath=["."]
